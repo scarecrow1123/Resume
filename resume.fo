@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:r="http://xmlresume.sourceforge.net/resume/0.0">
   <fo:layout-master-set>
-    <fo:simple-page-master master-name="resume-page" margin-top="0.75in" margin-left="0.6in" margin-right="0.6in" margin-bottom="0in" page-height="11in" page-width="8.5in">
+    <fo:simple-page-master master-name="resume-page" margin-top="0.65in" margin-left="0.6in" margin-right="0.6in" margin-bottom="0in" page-height="11in" page-width="8.5in">
       <fo:region-body overflow="hidden" margin-bottom="0.6in"/>
       <fo:region-after overflow="hidden" extent="0.6in"/>
     </fo:simple-page-master>
@@ -25,7 +25,7 @@
         <fo:block>
           <fo:block keep-with-next="always"><fo:inline font-style="normal" font-weight="bold">Bachelor's degree in Computer Science and Engineering</fo:inline>, 2010–2014,</fo:block>
           <fo:block>Amrita School of Engineering, Coimbatore.</fo:block>
-          <fo:block font-style="italic" space-after="1em" font-weight="bold">CGPA: 8.50</fo:block>
+          <fo:block font-style="italic" space-after="1em" font-weight="bold">CGPA: 8.29</fo:block>
           </fo:block>
 
           <!--fo:block space-after="1em">
@@ -109,13 +109,13 @@
         </fo:block>
         <fo:block font-weight="normal" font-style="italic"/>
         <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Programming Skills</fo:block>
-        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal">Programming Languages </fo:inline><fo:inline color="white">aaaaaaaaaaaaai</fo:inline>:<fo:inline color="white">a</fo:inline>C, C++, Python-2.7, HTML, CSS, JavaScript, Scheme(under study).</fo:block>
+        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal">Programming Languages </fo:inline><fo:inline color="white">aaaaaaaaaaaaai</fo:inline>:<fo:inline color="white">a</fo:inline>C, C++, Python-2.X, HTML, JavaScript, Scheme (under study).</fo:block>
         <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal">GUI Toolkit </fo:inline><fo:inline color="white">aaaaaaaaaaaaaaaaaaaaaaaaai</fo:inline>:<fo:inline color="white">a</fo:inline>wxWidgets.</fo:block>
-        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal">Web development Toolkits/Frameworks </fo:inline><fo:inline color="white">i</fo:inline>:<fo:inline color="white">a</fo:inline>Python Flask, jQuery, Twitter Bootstrap, EnyoJS, NodeJS(Under study).</fo:block>
-        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal">Databases </fo:inline><fo:inline color="white">aaaaaaaaaaaaaaaaaaaaaaaaaaa</fo:inline>:<fo:inline color="white">a</fo:inline>PostgreSQL.</fo:block>
+        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal">Web development Toolkits/Frameworks </fo:inline><fo:inline color="white">i</fo:inline>:<fo:inline color="white">a</fo:inline>Python Flask, jQuery, Twitter Bootstrap, EnyoJS, NodeJS (under study).</fo:block>
+        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal">Databases </fo:inline><fo:inline color="white">aaaaaaaaaaaaaaaaaaaaaaaaaaa</fo:inline>:<fo:inline color="white">a</fo:inline>PostgreSQL, SQLite</fo:block>
         <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">System Administration Skills</fo:block>
         <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal">Operating Systems </fo:inline><fo:inline color="white">aaaaaaaaaaaaaaaaaaaa</fo:inline>:<fo:inline color="white">a</fo:inline>Linux (mainly Ubuntu, OpenSuse but also familiar with other distributions).</fo:block>
-        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal">Version Control System </fo:inline><fo:inline color="white">aiaaaaaaaaaaaaaa</fo:inline>:<fo:inline color="white">a</fo:inline>Git.</fo:block>
+        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal">Version Control System </fo:inline><fo:inline color="white">aiaaaaaaaaaaaaaa</fo:inline>:<fo:inline color="white">a</fo:inline>Git (under study).</fo:block>
         <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Interests</fo:block>
         <fo:list-block space-after="0.750em" provisional-distance-between-starts="0.750em" provisional-label-separation="1.0em">
           <fo:list-item>
@@ -151,13 +151,21 @@
             </fo:list-item-body>
           </fo:list-item>
         </fo:list-block>
-        <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Projects/Internship</fo:block>
-        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Docu - Version control writing for Indian Languages</fo:inline>: </fo:inline>An open source application under development that aims at providing automatic document management and version control for text documents. Integrated with an editor, Docu supports text-editing in seven different Indic scripts including hindi, telugu, kannada, etc. <fo:block space-after="0.750em"><fo:inline font-style="italic">Git, nodeJS, node-webkit, enyoJS and google-closure libraries are being used for building this application.</fo:inline></fo:block></fo:block>
+
+<fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Internships</fo:block>
+        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Research Internship - Amrita Multidimensional Data Analytics and Research Lab</fo:inline>: </fo:inline>Working on an e-learning tool called <fo:inline font-style="italic" font-weight="normal"> Amrita Content based Indexing and Searching Tool</fo:inline> that is being developed based on the research going on in the Department of Computer Science, Amrita School of Engineering - Coimbatore. Part of the team that aims to capture the relatedness and different types of relatedness between videos based on their content. <fo:block space-after="0.750em"><fo:inline font-style="italic">Implemented a web based application for the module and also applications for user-studies. Also working on data visualization to conclude the results obtained during the research. Worked with python-flask for setting up the server. SQLite was used for database management. Learning data visualization using javascript. </fo:inline></fo:block></fo:block>
         <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Human Factors International</fo:inline>: </fo:inline>Interned with a contractor for HFI working on a cross-platform desktop application to monitor their servers.This application serves as a control panel that is being used by the employees to control and monitor their remote servers. <fo:block space-after="0.750em"><fo:inline font-style="italic">Written in python using wxWidgets for cross-platform UI. Used python-fabric for controlling the servers over ssh.</fo:inline></fo:block></fo:block>
-        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Amrita Content based Indexing and Searching Tool - ACIST</fo:inline>: </fo:inline>A data-analytics research project being done at the Department of CSE, Amrita School of Engineering on content based analysis of instructional videos. Aims at bringing up a methodology for identifying, classifying and indexing videos automatically for e-learning purposes based on their content. Part of the team that is working on quantifying the relatedness among videos. Implemented a number of mini-scale web applications for testing and evaluation purposes. Also working on setting up a web based system for the whole module. <fo:block space-after="0.750em"><fo:inline font-style="italic">Web servers were written in python using python-flask and postgreSQL for database management. Work also includes the usage of different front-end frameworks for visualization and designing purposes.</fo:inline></fo:block></fo:block>
+        <!--fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Amrita Content based Indexing and Searching Tool - ACIST</fo:inline>: </fo:inline>A data-analytics research project being done at the Department of CSE, Amrita School of Engineering on content based analysis of instructional videos. Aims at bringing up a methodology for identifying, classifying and indexing videos automatically for e-learning purposes based on their content. Part of the team that is working on quantifying the relatedness among videos. Implemented a number of mini-scale web applications for testing and evaluation purposes. Also working on setting up a web based system for the whole module. <fo:block space-after="0.750em"><fo:inline font-style="italic">Web servers were written in python using python-flask and postgreSQL for database management. Work also includes the usage of different front-end frameworks for visualization and designing purposes.</fo:inline></fo:block></fo:block-->
+        
+
+
+        <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Projects</fo:block>
+        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Docu - Version control writing for Indian Languages</fo:inline>: </fo:inline>An open source application under development that aims at providing automatic document management and version control for text documents. Integrated with an editor, Docu supports text-editing in seven different Indic scripts including hindi, telugu, kannada, etc. <fo:block space-after="0.750em"><fo:inline font-style="italic">Git, nodeJS, node-webkit, enyoJS and google-closure libraries are being used for building this application.</fo:inline></fo:block></fo:block>
+        <!--fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Human Factors International</fo:inline>: </fo:inline>Interned with a contractor for HFI working on a cross-platform desktop application to monitor their servers.This application serves as a control panel that is being used by the employees to control and monitor their remote servers. <fo:block space-after="0.750em"><fo:inline font-style="italic">Written in python using wxWidgets for cross-platform UI. Used python-fabric for controlling the servers over ssh.</fo:inline></fo:block></fo:block>
+        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Amrita Content based Indexing and Searching Tool - ACIST</fo:inline>: </fo:inline>A data-analytics research project being done at the Department of CSE, Amrita School of Engineering on content based analysis of instructional videos. Aims at bringing up a methodology for identifying, classifying and indexing videos automatically for e-learning purposes based on their content. Part of the team that is working on quantifying the relatedness among videos. Implemented a number of mini-scale web applications for testing and evaluation purposes. Also working on setting up a web based system for the whole module. <fo:block space-after="0.750em"><fo:inline font-style="italic">Web servers were written in python using python-flask and postgreSQL for database management. Work also includes the usage of different front-end frameworks for visualization and designing purposes.</fo:inline></fo:block></fo:block-->
+        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">TaskOrg</fo:inline>: </fo:inline>A web application that was developed for providing task management facility for the users with to-do lists and multiple views for managing them with a good number of features. <fo:block space-after="0.750em"><fo:inline font-style="italic">Python-flask was used for building the server. Front-end frameworks that were used include jQuery and Twitter-Bootstrap.</fo:inline></fo:block></fo:block>
         <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Collision Course</fo:inline>: </fo:inline>A 2D ball dodging game written during a code-a-thon which also won the third place in the same event.<fo:block><fo:inline font-style="italic">HTML5 canvas api and javascript were primarily used with box-2d physics engine for developing this game.</fo:inline></fo:block><fo:block> Game url<fo:inline color="white">a</fo:inline>:<fo:inline color="white">a</fo:inline><fo:inline font-family="monospace">http://collision-course.herokuapp.com/</fo:inline></fo:block><fo:block space-after="0.75em">Source<fo:inline color="white">aai</fo:inline> :<fo:inline color="white">a</fo:inline><fo:inline font-family="monospace">http://github.com/scarecrow1123/collision-course/</fo:inline></fo:block></fo:block>
         <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Monopoly</fo:inline>: </fo:inline>This is a board game with simple graphics based on the original American "Monopoly" game. <fo:block space-after="0.750em"><fo:inline font-style="italic">Written in C++ with WinBgi graphics library for user interface.</fo:inline></fo:block></fo:block>
-        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">TaskOrg</fo:inline>: </fo:inline>A web application that was developed for providing task management facility for the users with to-do lists and multiple views for managing them with a good number of features. <fo:block space-after="0.750em"><fo:inline font-style="italic">Python-flask was used for building the server. Front-end frameworks that were used include jQuery and Twitter-Bootstrap.</fo:inline></fo:block></fo:block>
         <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Supermarket Management</fo:inline>: </fo:inline>A console application developed for managing inventory and billing purposes for a supermarket. <fo:block space-after="0.750em"><fo:inline font-style="italic">Written in C++ for the linux platform.</fo:inline></fo:block></fo:block>
 
         <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Achievements</fo:block>
@@ -260,18 +268,18 @@
         </fo:list-block></fo:block-->
 
         
-        <!--fo:block start-indent="0in" space-before="2em">
+        <fo:block start-indent="0in" space-before="2em">
           <fo:block keep-with-next="always" font-weight="bold">Date:</fo:block>
           <fo:block start-indent="6in" font-weight="bold">Sri Ananda Seelan</fo:block>
-        </fo:block-->
+        </fo:block>
 
-        <fo:block space-before="3em" start-indent="0in" font-size="6pt">
+        <!--fo:block space-before="3em" start-indent="0in" font-size="6pt">
           <fo:block keep-with-next="always">Last modified - July '13 . </fo:block>
         </fo:block>
         <fo:block start-indent="0in" font-size="8pt">
           <fo:block keep-with-next="always">Copyright © 2013 by Sri Ananda Seelan . </fo:block>
           <fo:block space-after="0.750em">All rights reserved.</fo:block>
-        </fo:block>
+        </fo:block-->
       </fo:block>
     </fo:flow>
   </fo:page-sequence>
