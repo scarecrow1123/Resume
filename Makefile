@@ -22,22 +22,13 @@ TXT_STYLE  = ${RESUMELIB}/xsl/output/${country}-text.xsl
 .PHONY: all clean check
 .SUFFIXES: .html .fo .pdf .xml .xsl .txt
 
-all:	$(resume).html $(resume).txt $(resume).pdf
+all: $(resume).pdf
 
 clean:
-	-rm -f $(resume).html $(resume).fo $(resume).pdf $(resume).txt *~
+	-rm -f $(resume).fo $(resume).pdf *~
 
-$(resume).html: $(resume).xml
-	xsltproc $(HTML_STYLE) $(resume).xml > $(resume).html
-
-$(resume).txt: $(resume).xml
-	xsltproc $(TXT_STYLE) $(resume).xml > $(resume).txt
-
-# $(resume).fo: $(resume).xml
-	# xsltproc $(FO_STYLE) $(resume).xml > $(resume).fo
 
 
 $(resume).pdf: $(resume).fo
-	#xmlto -x $(FO_STYLE) pdf $(resume).xml
 	$(FOP) $(resume).fo $(resume).pdf
 
