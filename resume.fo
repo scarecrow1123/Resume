@@ -207,7 +207,7 @@
               <fo:block>•</fo:block>
             </fo:list-item-label>
             <fo:list-item-body start-indent="body-start()">
-              <fo:block>Active member in Stack Overflow - Was in the top 3% users of the week and 6% of the month(June '13) globally in terms of contribution and reputation.</fo:block>
+              <fo:block>Active member in Stack Overflow.</fo:block>
             </fo:list-item-body>
           </fo:list-item>
           <fo:list-item>
