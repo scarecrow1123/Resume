@@ -153,7 +153,10 @@
         </fo:list-block>
 
 <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Internships</fo:block>
-        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Research Internship - Amrita Multidimensional Data Analytics and Research Lab</fo:inline>: </fo:inline>Working on an e-learning tool called <fo:inline font-style="italic" font-weight="normal"> Amrita Content based Indexing and Searching Tool</fo:inline> that is being developed based on the research going on in the Department of Computer Science, Amrita School of Engineering - Coimbatore. Part of the team that aims to capture the relatedness and different types of relatedness between videos based on their content. <fo:block space-after="0.750em"><fo:inline font-style="italic">Implemented a web based application for the module and also applications for user-studies. Also working on data visualization to conclude the results obtained during the research. Worked with python-flask for setting up the server. SQLite was used for database management. Learning data visualization using javascript. </fo:inline></fo:block></fo:block>
+        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Research Internship - Amrita Multidimensional Data Analytics and Research Lab</fo:inline>: </fo:inline>Worked on an e-learning tool called <fo:inline font-style="italic" font-weight="normal"> Amrita Content based Indexing and Searching Tool</fo:inline> that is being developed based on the research going on in the Department of Computer Science, Amrita School of Engineering - Coimbatore. Part of the team that developed a novel framework that identifies and classifies different types of relationships between instructional videos and also other type of educational media based on their content. Have submitted a paper for review titled <fo:inline font-style="italic" font-weight="normal"> A Statistical Approach for Modelling Multi-Faceted Relatedness between Informative Media</fo:inline> to the <fo:inline font-style="italic" font-weight="normal"> International World Wide Web Conference '14. </fo:inline> 
+
+
+         <fo:block space-after="0.750em"><fo:inline font-style="italic"> Gained experience in doing research work on areas like Information Retrieval, Data Analysis and Visualization. Also worked on software development that included implementing a web based application for the module and also applications for user-studies. Worked with D3 javascript library for visualizing data obtained during the experiments.</fo:inline></fo:block></fo:block>
         <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Human Factors International</fo:inline>: </fo:inline>Interned with a contractor for HFI working on a cross-platform desktop application to monitor their servers.This application serves as a control panel that is being used by the employees to control and monitor their remote servers. <fo:block space-after="0.750em"><fo:inline font-style="italic">Written in python using wxWidgets for cross-platform UI. Used python-fabric for controlling the servers over ssh.</fo:inline></fo:block></fo:block>
         <!--fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"><fo:inline font-weight="bold">Amrita Content based Indexing and Searching Tool - ACIST</fo:inline>: </fo:inline>A data-analytics research project being done at the Department of CSE, Amrita School of Engineering on content based analysis of instructional videos. Aims at bringing up a methodology for identifying, classifying and indexing videos automatically for e-learning purposes based on their content. Part of the team that is working on quantifying the relatedness among videos. Implemented a number of mini-scale web applications for testing and evaluation purposes. Also working on setting up a web based system for the whole module. <fo:block space-after="0.750em"><fo:inline font-style="italic">Web servers were written in python using python-flask and postgreSQL for database management. Work also includes the usage of different front-end frameworks for visualization and designing purposes.</fo:inline></fo:block></fo:block-->
         
@@ -171,6 +174,14 @@
         <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Achievements</fo:block>
 
         <fo:list-block space-after="0.750em" provisional-distance-between-starts="0.750em" provisional-label-separation="1.0em">
+          <fo:list-item>
+            <fo:list-item-label start-indent=".5in" end-indent="label-end()">
+              <fo:block>•</fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>Qualified for the ACM-ICPC 2014, Amritapuri regionals.</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
           <fo:list-item>
             <fo:list-item-label start-indent=".5in" end-indent="label-end()">
               <fo:block>•</fo:block>
@@ -268,10 +279,10 @@
         </fo:list-block></fo:block-->
 
         
-        <fo:block start-indent="0in" space-before="2em">
+        <!-- <fo:block start-indent="0in" space-before="2em">
           <fo:block keep-with-next="always" font-weight="bold">Date:</fo:block>
           <fo:block start-indent="6in" font-weight="bold">Sri Ananda Seelan</fo:block>
-        </fo:block>
+        </fo:block> -->
 
         <!--fo:block space-before="3em" start-indent="0in" font-size="6pt">
           <fo:block keep-with-next="always">Last modified - July '13 . </fo:block>
