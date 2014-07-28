@@ -27,7 +27,6 @@
           <fo:block>Amrita School of Engineering, Coimbatore.</fo:block>
           <fo:block font-style="italic" space-after="1em" font-weight="bold">CGPA: 8.29</fo:block>
           </fo:block>
-
           <!--fo:block space-after="1em">
           <fo:inline font-style="italic">Semester wise GPA:</fo:inline>
             <fo:table table-layout="fixed">
