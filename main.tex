@@ -1,0 +1,200 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca (fork 1)
+% (c) 2016 Ananda Seelan <ananda.seelan@gmail.com> (fork 2)
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{lmodern}
+%-----------------------------------------------------------
+%\usepackage{fullpage}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\textbf{\sffamily{\mbox{~}{\large #1} \vphantom{p\^{E}}}}}
+%{{\large \textbf{#1 \vphantom{p\^{E}}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+%-----------------------------------------------------------
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{\fontsize{7}{4}\selectfont Sri Ananda Seelan - Resume - forked from the original \LaTeX \ template by Matthew Boedicker and David J. Grant}
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Sri Ananda Seelan}  & 91 9789269542\\
+Chengalpet &  ananda.seelan@gmail.com \\
+\end{tabular*}
+\\
+\vspace{0.05in}
+\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
+\vspace{0.025in}
+
+\resheading{Education}
+\begin{itemize}
+\item[]
+	\ressubheading{Amrita School of Engineering, Amrita Vishwa Vidyapeetham}{Coimbatore, India}{Bachelor of Technology, Computer Science and Engineering (CGPA: 8.29)}{2010 - 2014}
+
+\item[]
+	\ressubheading{Sri Sarada Balamandir Boys' Matric Hr. Sec. School}{Salem, India}{TamilNadu Higher Seconday School Examination (Score: 95\%)}{2010}
+
+\end{itemize}
+
+\resheading{Programming Skills}
+\vspace{-2mm}
+\begin{itemize}
+\item[]{\textit{Lanugages:} C, C++, Python-2.X, Java, JavaScript, HTML, Dart(under study), Scheme(under study)}\vspace{-2mm}
+\item[]{\textit{Databases:} MySQL}\vspace{-2mm}
+\item[]{\textit{GUI Toolkits:} wxWidgets}\vspace{-2mm}
+\item[]{\textit{Web Development Frameworks:} Python Flask, jQuery, Twitter Bootstrap, Enyo JS}\vspace{-2mm}
+\item[]{\textit{Operating Systems:} Linux (mainly Ubuntu, OpenSuse but also familiar with other distributions)}\vspace{-2mm}
+\item[]{\textit{Version Control Systems:} Mercurial}\vspace{-2mm}
+\end{itemize}
+
+\vspace{0.05in}
+\resheading{Interests}
+\vspace{-2mm}
+\begin{itemize}[leftmargin=.5in]
+\item{General Purpose Programming}\vspace{-3mm}
+\item{Web development}\vspace{-3mm}
+\item{RESTful API}\vspace{-3mm}
+\item{Information Systems}\vspace{-3mm}
+\end{itemize}
+
+\vspace{0.05in}
+\resheading{Work Experience}
+\begin{itemize}
+\item[]
+	\ressubheading{Zoho Corporation}{Chennai, India}{Member Technician Staff, ManageEngine ServiceDesk Plus OnDemand}{April 2014 - Present}
+	\begin{itemize}
+		\resitem{Part of a team working on developing a RESTful web framework that is typically used everyday by module/feature developers for quickly implementing REST APIs.}
+		\resitem{\textit{The framework is being written with core Java. Responsibilities include active development and maintenance of core parts of this framework.}}
+	\end{itemize}
+
+\item[]
+	\ressubheading{Zoho Corporation}{Chennai, India}{Project Intern, ManageEngine ServiceDesk Plus OnDemand}{Feb 2014 - March 2014}
+	\begin{itemize}
+		\resitem{Developed a Computer Telephony Integration addon for ServiceDesk Plus OnDemand - a cloud based IT Help Desk software.}
+		\resitem{\textit{Wrote API bindings and a standalone client application for Avaya PBX.}}
+	\end{itemize}
+
+\item[]
+	\ressubheading{Human Factors International}{Pondicherry, India}{Intern}{Dec 2012}
+	\begin{itemize}
+		\resitem{Interned with a contractor for HFI working on a cross-platform desktop application to monitor their servers. This application serves as a control panel that is being used by the employees to control and monitor their remote servers.}
+        \resitem{\textit{Primarily worked with adding/tweaking few GUI components of this application written with wxWidgets.}}
+	\end{itemize}
+
+\item[]
+	\ressubheading{Amrita Multi-dimensional Data Analytics Research Lab}{Coimbatore, India}{Undergraduate Student Researcher}{May 2012 - Dec 2013}
+	\begin{itemize}
+		\resitem{Was part of a team of research interns who were working on several Information Retrieval projects in Amrita MultiDimensional Data Analytics Lab, Department of CSE.}
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{Projects}
+\begin{itemize}
+\item[]
+	\textbf{A statistical approach for modeling Inter-Document relatedness}
+	\vspace{-3mm}
+	\begin{itemize}
+		\resitem{This work, done at the Amrita Multi dimensional Data Analytics Lab was aimed at devising a statistical model that automatically identifies and quantifies different types of relatedness between scientific/technical documents. This system would find important applications in educational Digital libraries to help a user by directing the order of material he/she searches to learn.}
+		\resitem{Consequently, a research article was written by us with the above title and the manuscript has been communicated with \textit{"Journal of Intelligent Information Systems"} - a reputed research journal.}
+	\end{itemize}
+
+\item[]
+	\textbf{Incremental and Hierarchial index for faster TF-IDF calculation}
+	\vspace{-3mm}
+	\begin{itemize}
+	    \resitem{This project aimed at reducing the calculation time of TF-IDF, an important and fundamntal metric in Searching and Ranking.}
+		\resitem{Designed and implemented an incremental and hierarchial index with an in-memory key value store and achieved faster calculation of this metric.}
+		\resitem{\textit{This utility was written in Python}}
+	\end{itemize}
+
+\item[]
+	\textbf{Feedback aggregation tools for a Video Recommender system}
+	\vspace{-3mm}
+	\begin{itemize}
+		\resitem{Developed a couple of simple video browsing applications along with a recommender system based on the results of our previous project "A statistical approach for modeling Inter-document relatedness". These web applications were used to log user feedback(both implicit as well as explicit) and check the user intent against our results.}
+		\resitem{\textit{Python was the primary language on which the servers were written with Flask as the web framework. SQLite was used as the database server and jQuery for frontend}}
+	\end{itemize}
+
+\item[]
+	\textbf{Docu}
+	\vspace{-3mm}
+	\begin{itemize}
+		\resitem{Docu is a desktop application that features a text editor written over Google Closure editor, to support text editing in a number of Indian languages including Hindi, Bengali, etc.}
+		\resitem{\textit{This being primarily a JavaScript application, was bundled as a desktop application using node-webkit aka nw.js for webkit bindings.}}
+	\end{itemize}
+
+\item[]
+	\textbf{Collision Course}
+	\vspace{-3mm}
+	\begin{itemize}
+		\resitem{A 2D ball dodging game written during a 24 hour code-a-thon which also won the third place in the same event.}
+		\resitem{\textit{The game ran on HTML canvas using the box2D JavaScript engine.}}
+	\end{itemize}
+
+\item[]
+	\textbf{Monopoly}
+	\vspace{-3mm}
+	\begin{itemize}
+		\resitem{A desktop version of the classic Monopoly board game.}
+		\resitem{\textit{Was written in C++ with WIN32 graphics library support.}}
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{Achievements}
+\vspace{-3mm}
+	\begin{itemize}
+		\item Qualified for the ACM-ICPC 2014, Amritapuri regionals
+		\vspace{-3mm}
+		\item Won the third place in a web-designing event held during a National level Student Convention conducted by Computer Society of India.
+		\vspace{-3mm}
+		\item Secured the third position in a code-a-thon event conducted by Amrita School of Engineering-Bangalore for developing a game application in 24 hours
+		\vspace{-3mm}
+		\item Won the second place in "Hexathalon", a technical event conducted during a National level Tech. Fest conducted by Amrita University
+    \end{itemize}
+
+\end{document}
