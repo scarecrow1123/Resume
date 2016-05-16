@@ -1,1 +1,1 @@
-<img src="http://i.stack.imgur.com/LKB0B.png"></img> resume. Forked from the original [LaTeX template by Matthew Boedicker and David J. Grant](http://www.davidgrant.ca/latex_resume_template)
+<img src="http://i.stack.imgur.com/LKB0B.png"></img> resume. Forked from the original [<img src="http://i.stack.imgur.com/LKB0B.png"></img> template by Matthew Boedicker and David J. Grant](http://www.davidgrant.ca/latex_resume_template)
